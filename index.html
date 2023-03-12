@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pijaca</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Pijaca</h1>	
+
+	<div class="container">
+		<div class="povrce">
+
+			<h2>Povrce</h2>
+			<div class="oneItem">
+				<img src="img/potato.png">
+
+				<div class="stats">
+					<p class="nazivPovrca">Krompir</p>
+					<span class="cijena" value="10">$10</span>
+				</div>
+
+				<div class="actions">
+					<input class="kolicina" type="number" min="0" value="0">
+					<button onclick="Dodaj(this)">Dodaj</button>
+				</div>
+			</div>
+		<hr>
+			<div class="oneItem">
+				<img src="img/tomato.png">
+
+				<div class="stats">
+					<p class="nazivPovrca">Paradajz</p>
+					<span class="cijena" value="20">$20</span>
+				</div>
+
+				<div class="actions">
+					<input class="kolicina" type="number" min="0" value="0">
+					<button onclick="Dodaj(this)">Dodaj</button>
+				</div>
+			</div>
+		<hr>
+			<div class="oneItem">
+				<img src="img/carrot.png">
+
+				<div class="stats">
+					<p class="nazivPovrca">Sargarepa</p>
+					<span class="cijena" value="30">$30</span>
+				</div>
+
+				<div class="actions">
+					<input class="kolicina" type="number" min="0" value="0">
+					<button onclick="Dodaj(this)">Dodaj</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="korpa">
+			<h2>Korpa</h2>
+			<div class="uKorpi"> </div>
+
+			<p id="ukupno"><span id="total"> </span></p>
+		</div>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
